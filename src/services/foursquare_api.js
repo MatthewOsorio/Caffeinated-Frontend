@@ -1,4 +1,4 @@
-const API_KEY = "fsq3HrVJXeR1+aK4nhI8sbxCfu2q40Y8K6oHmzKrlgic9qA=";
+const API_KEY = import.meta.env.VITE_FOURSQUARE_API_KEY;
 const BASE_URL = "https://api.foursquare.com/v3/places";
 
 export const getCoffeeShops = async (coordinates) => {
