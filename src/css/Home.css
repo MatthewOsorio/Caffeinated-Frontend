@@ -1,0 +1,39 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.home p {
+  font-size: 2.1875rem;
+}
+
+.search-input {
+  opacity: 0.35;
+  padding: 1rem;
+  width: 31.25rem;
+  border-radius: 15rem;
+  border: none;
+  max-width: 37.5rem;
+  margin-bottom: 1.125rem;
+}
+
+.search-input:hover {
+  opacity: 0.45;
+}
+
+.coffee-shop-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  overflow-y: auto;
+  height: 40rem;
+  padding: 0rem 1rem;
+  width: 50rem;
+}
+
+.error,
+.loading {
+  font-size: 2.1875rem;
+}

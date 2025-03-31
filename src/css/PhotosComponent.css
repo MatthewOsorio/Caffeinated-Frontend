@@ -1,0 +1,51 @@
+.coffee-photos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.photos-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  width: 43.75rem;
+  max-width: 100%;
+  justify-content: flex-start;
+  gap: 0.9375rem;
+  padding: 0.625rem;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.photos-container ::-webkit-scrollbar {
+  display: none;
+}
+
+.photo {
+  width: 15.625rem;
+  height: 15.625rem;
+  object-fit: cover;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.scroll-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.125rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  color: white;
+  padding: 0rem;
+  line-height: 0rem;
+  background-color: transparent;
+  border: none;
+}
+
+.unavailable {
+  font-size: 1.5rem;
+}

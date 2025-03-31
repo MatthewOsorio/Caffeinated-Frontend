@@ -1,0 +1,70 @@
+.review-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-top: 0.625rem;
+}
+
+.review-form-container .review-field {
+  font-size: 1.25rem;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.review-input {
+  opacity: 0.35;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  width: 28.125rem;
+  height: 12.5rem;
+  resize: none;
+  font-family: Roboto, Arial;
+}
+
+.recommend-field {
+  font-size: 1.125rem;
+  color: #fff;
+  font-style: italic;
+}
+
+.recommend-options {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+.emoji-option {
+  cursor: pointer;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.emoji-option:hover {
+  transform: scale(1.2);
+}
+
+.emoji-option.selected {
+  filter: drop-shadow(0 0 0.1875rem gold);
+}
+
+.review-button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #3f2c24;
+  border-radius: 0.9375rem;
+  border: none;
+  font-family: Caveat, Roboto;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.review-button-container {
+  display: flex;
+  width: 100%;
+  gap: 0.625rem;
+}

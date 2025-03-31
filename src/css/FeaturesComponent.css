@@ -1,0 +1,20 @@
+.amenities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    width: 46.875rem;;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    font-size: 1.25rem;
+    padding-top: 0.625rem;
+    padding-left: 0.94rem;
+}
+
+.amenity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkmark{
+    width: 1.563rem;    height: auto;
+}

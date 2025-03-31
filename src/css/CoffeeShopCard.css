@@ -1,0 +1,23 @@
+.coffee-shop-card {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffee-shop-name {
+  font-size: 2.5rem;
+}
+
+.coffee-shop-info {
+  font-size: 1.6rem;
+}
+
+.coffee-shop-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: end;
+  text-align: left;
+}

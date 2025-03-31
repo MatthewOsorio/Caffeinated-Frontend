@@ -1,0 +1,39 @@
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3f2c24;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 0.9375rem;
+  width: 100%;
+  margin-left: 1.5625rem;
+  font-size: 1.25rem;
+}
+
+.info-icon {
+  width: 1.5625rem;
+  height: auto;
+  color: white;
+}
+
+.info-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.625rem;
+  padding-bottom: 1rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+}
+
+.social-media-logo {
+  width: 2.5rem;
+  height: auto;
+  border: none;
+  border-radius: 0.625rem;
+}

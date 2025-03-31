@@ -1,0 +1,8 @@
+.hours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 21.875rem;
+  margin-bottom: 0.1875rem;
+  font-size: 1.25rem;
+}

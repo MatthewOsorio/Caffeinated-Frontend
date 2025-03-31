@@ -1,0 +1,10 @@
+.active {
+  color: yellow;
+}
+
+.review-rating {
+  width: 1.875rem;
+  height: auto;
+  padding: 0.25rem;
+  text-align: center;
+}
