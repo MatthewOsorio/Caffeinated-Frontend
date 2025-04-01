@@ -7,6 +7,7 @@ import Register from "./pages/Register";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Profile from "./pages/Profile";
 import { AuthProvider } from "./contexts/AuthContext";
+import "./fixLeafletIcons";
 import "./css/App.css";
 
 function App() {
