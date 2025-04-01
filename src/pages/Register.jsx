@@ -32,7 +32,6 @@ function Register() {
       await registerUser(newUser);
       setSuccess(true);
     } catch (err) {
-      console.log(err);
       setAPIError(err);
     } finally {
       setLoading(false);
@@ -68,7 +67,6 @@ function Register() {
     }
 
     if (foundErrors.length > 0) {
-      console.log(foundErrors);
       setErrors(foundErrors);
     } else {
       createNewUser();

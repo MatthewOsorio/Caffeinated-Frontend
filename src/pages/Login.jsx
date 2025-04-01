@@ -26,7 +26,6 @@ function Login() {
       await authenticateUser(incomingUser);
       setSuccess(true)
     } catch (err) {
-      console.log(err)
       setError("Incorrect Email/Password")
     } finally {
       setLoading(false);

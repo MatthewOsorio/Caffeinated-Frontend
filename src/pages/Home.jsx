@@ -29,7 +29,6 @@ function Home() {
       setFoundCoordinates(true);
     } catch (err) {
       setFoundCoordinates(false);
-      console.log(err);
       setError(err.message);
     }
   };
@@ -47,7 +46,6 @@ function Home() {
         const newCoffeShops = await getCoffeeShops(coordinates);
         setCoffeeShops(newCoffeShops);
       } catch (err) {
-        console.log(err);
         setError("Failed to find coffee shops :(");
       } finally {
         setLoading(false);

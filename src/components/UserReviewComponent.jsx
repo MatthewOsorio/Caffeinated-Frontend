@@ -16,7 +16,6 @@ function UserReviewComponent({ userID }) {
       const userReviews = await getReviewsByUserId(id);
       setReviews(userReviews);
     } catch (err) {
-      console.log(err);
       setErrorGettingReviews(err.message);
     } finally {
       setLoading(false);

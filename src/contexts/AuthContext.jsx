@@ -42,7 +42,6 @@ export const AuthProvider = ({ children }) => {
   const authenticateUser = async (data) => {
     try {
       const res = await loginUser(data);
-      console.log(res)
       if (res) {
         setUsername(res.username);
         setToken(res.token);

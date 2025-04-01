@@ -50,7 +50,6 @@ function ReviewForm({
         );
         setWritingReview(false);
       } catch (error) {
-        console.log(error);
         setError(error.message);
       }
     } else if (method === "update") {
@@ -67,10 +66,8 @@ function ReviewForm({
           currentReview.id,
           token
         );
-        console.log(resp);
         setEditingReview(false);
       } catch (error) {
-        console.log(error);
         setError(error.message);
       }
     }

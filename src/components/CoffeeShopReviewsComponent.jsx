@@ -29,7 +29,6 @@ function CoffeeShopReviewsComponent({ coffeeshop_name, coffeeshop_id }) {
       const shopReviews = await getCoffeeShopReviewsById(coffeeshop_id);
       setReviews(shopReviews);
     } catch (err) {
-      console.log(err);
       setError(err);
     }
   };

@@ -24,7 +24,6 @@ function Profile() {
         setFirstname(user.first_name);
         setLastname(user.last_name);
       } catch (err) {
-        console.log(err);
         setErrorGettingUser(err.message);
       } finally {
         setLoading(false);

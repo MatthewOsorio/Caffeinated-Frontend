@@ -32,7 +32,6 @@ function CoffeeShop() {
         setCoffeeShop(shop);
       } catch (err) {
         setError("Could not find coffee shop :(");
-        console.log(err.message);
       } finally {
         setLoading(false);
       }

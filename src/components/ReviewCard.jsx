@@ -17,7 +17,6 @@ function ReviewCard({ review, setEditingReview, refreshReviews, refreshID }) {
         await deleteReview(reviewID, token)
         refreshReviews(refreshID);
       } catch(err){
-        console.log(err)
         setError(err) 
       }
     }
@@ -30,7 +29,6 @@ function ReviewCard({ review, setEditingReview, refreshReviews, refreshID }) {
         const user = await getUserById(userID);
         setUsername(user.username);
       } catch (err) {
-        console.log(err);
         setError(err.message);
       }
     };
