@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getReviewsByUserId } from "../services/backend_api";
 import ReviewCard from "./ReviewCard";
 import ReviewForm from "./ReviewForm";
-
+import "../css/UserReviewComponent.css"
 function UserReviewComponent({ userID }) {
   const [reviews, setReviews] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -41,7 +41,7 @@ function UserReviewComponent({ userID }) {
           />
         ) : reviews && reviews.length > 0 ? (
           reviews.map((review) => (
-            <div key={review.id}>
+            <div key={review.id} className="user-review">
               <div>{review.shop_name} Review: </div>
               <ReviewCard
                 review={review}

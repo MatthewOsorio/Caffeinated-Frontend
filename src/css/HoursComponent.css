@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: space-between;
   width: 21.875rem;
-  margin-bottom: 0.1875rem;
   font-size: 1.25rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hours{
+    width: 12rem;
+    font-size: 1.1rem; 
+  }
 }

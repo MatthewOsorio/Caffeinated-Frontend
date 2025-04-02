@@ -42,3 +42,20 @@
 .amenities {
   margin-bottom: 0.625rem;
 }
+
+@media (max-width: 768px) {
+  .coffee-page {
+    padding: 0rem 1rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .coffee-page{
+    padding: 0rem 5rem;
+    padding-bottom: 50rem;
+  }
+  .page-content-middle{
+    width: 35.5rem;
+  }
+}

@@ -1,5 +1,11 @@
 .map {
-    height: 14.0625rem;
-    width: 21.875rem;
+  height: 14.0625rem;
+  width: 21.875rem;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .map{
+    height: 12.5rem;
+    width: 19.8rem;
   }
-  
+}

@@ -40,7 +40,6 @@ function Profile() {
       </div>
 
       <h2>Reviews</h2>
-
       <UserReviewComponent userID={userID}/>
 
       {loading && <div>Loading...</div>}

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { getUserById, deleteReview } from "../services/backend_api";
 import ReviewStarRating from "./ReviewStarRating";
-import "../css/ReviewCard.css";
 import { useAuthContext } from "../contexts/AuthContext";
+import "../css/ReviewCard.css";
 
 function ReviewCard({ review, setEditingReview, refreshReviews, refreshID }) {
   const [username, setUsername] = useState();
@@ -21,7 +21,6 @@ function ReviewCard({ review, setEditingReview, refreshReviews, refreshID }) {
       }
     }
   }
-
 
   useEffect(() => {
     const getUsername = async (userID) => {

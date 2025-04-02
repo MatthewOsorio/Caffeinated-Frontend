@@ -33,7 +33,7 @@ function OpenStatusComponent({ hours }) {
   }, [hours]);
 
   return (
-    <div className="open-status">
+    <div className="coffee-shop-info right">
       {hours.open_now ? (
         <div> Closes at {closingTime}</div>
       ) : (

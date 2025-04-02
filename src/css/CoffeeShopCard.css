@@ -3,16 +3,9 @@
   grid-template-columns: 3fr 1fr;
   gap: 1rem;
   background-color: #3f2c24;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-  .coffee-shop-card {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
 }
 
 .coffee-shop-name {
@@ -23,11 +16,32 @@
   font-size: 1.6rem;
 }
 
-.coffee-shop-card-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-items: end;
+.left{
   text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .coffee-shop-card{
+    grid-template-columns: 2.5fr 1fr;
+  }
+  .coffee-shop-name{
+    font-size: 1.5rem;
+    
+  }
+  .coffee-shop-info{
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .coffee-shop-name{
+    font-size: 1.9rem;
+  }
+  .coffee-shop-info{
+    font-size: 1.35rem;
+  }
 }

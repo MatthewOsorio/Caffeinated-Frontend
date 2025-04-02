@@ -37,3 +37,27 @@
   border: none;
   border-radius: 0.625rem;
 }
+
+@media (max-width: 768px) {
+  .coffee-shop-card {
+    grid-template-columns: 2.5fr 1fr;
+  }
+  .coffee-shop-name {
+    font-size: 1.5rem;
+  }
+  .coffee-shop-info {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .info-card {
+    font-size: 1.1rem;
+  }
+  .info-icon{
+    width: 1.3rem;
+  }
+  .social-media-logo{
+    width: 2.0rem;
+  }
+}

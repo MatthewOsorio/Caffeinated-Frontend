@@ -34,13 +34,11 @@ function CoffeeShopReviewsComponent({ coffeeshop_name, coffeeshop_id }) {
   };
 
   useEffect(() => {
-
     getReviewsForCoffeeshop(coffeeshop_id);
   }, []);
 
   return (
     <div className="review-container">
-      {error && <div>Could not get reviews</div>}
       <div className="review-header">
         <h2>Reviews</h2>
         {writingReview ? (
@@ -80,20 +78,22 @@ function CoffeeShopReviewsComponent({ coffeeshop_name, coffeeshop_id }) {
           />
         ) : reviews && reviews.length > 0 ? (
           reviews.map((review) => (
-            <ReviewCard
-              key={review.id}
-              review={review}
-              setEditingReview={setEditingReview}
-              refreshReviews={getReviewsForCoffeeshop}
-              refreshID={coffeeshop_id}
-            />
+            <div>
+              <ReviewCard
+                key={review.id}
+                review={review}
+                setEditingReview={setEditingReview}
+                refreshReviews={getReviewsForCoffeeshop}
+                refreshID={coffeeshop_id}
+              />
+            </div>
           ))
+        ) : error ? (
+          <div>Could not get reviews</div>
         ) : (
           <div>Be the first to write a review</div>
         )}
       </div>
-
-
     </div>
   );
 }

@@ -53,19 +53,15 @@
   filter: drop-shadow(0 0 0.1875rem gold);
 }
 
-.review-button {
-  padding: 0.5rem;
-  color: white;
-  background-color: #3f2c24;
-  border-radius: 0.9375rem;
-  border: none;
-  font-family: Caveat, Roboto;
-  font-size: 1.125rem;
-  cursor: pointer;
-}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .review-form{
+    gap: 0.45rem;
 
-.review-button-container {
-  display: flex;
-  width: 100%;
-  gap: 0.625rem;
+  }
+  .review-form-container .review-field {
+    font-size: 1.1rem;
+  }
+  .recommend-options{
+    font-size: 1.4rem;
+  }
 }

@@ -118,7 +118,7 @@ function ReviewForm({
           {currentReview && (
             <button
               type="button"
-              className="review-button cancel-button"
+              className="review-button"
               onClick={() => {
                 setEditingReview(false);
               }}
