@@ -35,7 +35,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.125rem;
+  font-size: 1.5rem;
   width: 1.5625rem;
   height: 1.5625rem;
   color: white;
@@ -53,4 +53,5 @@
   .photos-container{
     width: 33rem;
   }
+  
 }

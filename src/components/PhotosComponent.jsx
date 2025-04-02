@@ -41,7 +41,7 @@ function PhotosComponent({ coffeeshop_id }) {
       {photos.length > 0 ? (
         <>
           <button className="scroll-button" onClick={() => handleScroll("L")}>
-            &#129168;
+            &#11164;
           </button>
           <div className="photos-container" ref={photoRef}>
             {photos.map((photo, index) => (
@@ -55,10 +55,12 @@ function PhotosComponent({ coffeeshop_id }) {
             ))}
           </div>
           <button className="scroll-button" onClick={() => handleScroll("R")}>
-            &#129170;
+            &#11166;
           </button>
         </>
-      ): (<div className="photos-container unavailable">No photos available</div>)}
+      ) : (
+        <div className="photos-container unavailable">No photos available</div>
+      )}
     </div>
   );
 }
