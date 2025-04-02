@@ -3,7 +3,7 @@
   width: 21.875rem;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1500px) {
   .map{
     height: 12.5rem;
     width: 19.8rem;
