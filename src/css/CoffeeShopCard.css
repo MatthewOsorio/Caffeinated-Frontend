@@ -1,8 +1,18 @@
 .coffee-shop-card {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  justify-content: space-between;
-  align-items: center;
+  gap: 1rem;
+  background-color: #3f2c24;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .coffee-shop-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 }
 
 .coffee-shop-name {

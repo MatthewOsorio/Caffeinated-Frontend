@@ -5,7 +5,7 @@ function CoffeeShopCard({ coffeeShop }) {
   return (
     <div className="coffee-shop-card">
       <div className="coffee-shop-card-left">
-        <div className="coffee-shop-name">{coffeeShop.name}</div>
+        <h2 className="coffee-shop-name">{coffeeShop.name}</h2>
         <div className="coffee-shop-info">
           {coffeeShop.location.formatted_address}
         </div>

@@ -57,7 +57,7 @@ function Home() {
 
   return (
     <div className="home">
-      <p>Find Coffee Shops in Your City</p>
+      <h2>Find Coffee Shops in Your City</h2>
       <form onSubmit={handleSearch}>
         <input
           className="search-input"
