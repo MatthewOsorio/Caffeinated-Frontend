@@ -50,7 +50,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1500px) {
+@media (min-width: 1024px) and (max-width: 1490px) {
   .info-card {
     font-size: 1.1rem;
   }

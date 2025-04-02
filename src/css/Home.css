@@ -52,7 +52,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1500px) {
+@media (min-width: 1024px) and (max-width: 1490px) {
   .search-input {
     width: 28.5rem;
     margin-bottom: 0.75rem;

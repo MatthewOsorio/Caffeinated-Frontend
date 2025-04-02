@@ -18,7 +18,7 @@
   transform: translateY(-2px);
 } 
 
-@media (min-width: 1024px) and (max-width: 1500px) {
+@media (min-width: 1024px) and (max-width: 1490px) {
   .review-card{
     padding: 0.5rem
   }
